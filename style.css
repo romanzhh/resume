@@ -65,17 +65,37 @@ hr {
 }
 
 .text > li {
-  margin-left: 20vw;
+  margin-left: 21.5vw;
   font-size: 1.7vh;
   line-height: 3vh;
 }
 
+.education > p {
+  margin-top: 1vh;
+}
+
 .education-text {
-  margin-left: 22vw;
+  margin-left: 23vw;
   font-size: 1.7vh;
   width: 55vw;
 }
 
 .margin {
-  margin-top: 2.5vh;
+  margin-top: 3vh;
+}
+
+.bottom {
+  margin-top: 5vh;
+}
+
+@media (max-width: 450px) {
+  .text > li {
+    margin-left: 18vw;
+    font-size: 1.7vh;
+    line-height: 3vh;
+  }
+
+  .education-text {
+    margin-left: 24.5vw;
+  }
 }

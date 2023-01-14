@@ -20,6 +20,7 @@ contacts.addEventListener('pointerup', (e) => {
 });
 
 const lis = document.querySelectorAll('li');
+const uls = document.querySelectorAll('ul');
 
 for (const li of lis) {
   const span = document.createElement('span');
@@ -38,4 +39,12 @@ if (width > height && !window.navigator.userAgent.includes('Windows')) {
   for (const stripText of stripTexts) {
     stripText.style.bottom = '5px';
   }
+
+  for (const li of lis) {
+    li.style.marginLeft = '20vw';
+  }
+
+  for (const ul of uls) {
+    ul.style.margin = 0;
+  }  
 }
