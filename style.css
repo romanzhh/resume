@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 header {
@@ -61,12 +64,6 @@ hr {
   color: rgb(214, 135, 15);
 }
 
-.strip-text, .contacts, .title {
-  user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
 .text > li {
   margin-left: 20vw;
   font-size: 1.7vh;
@@ -74,7 +71,11 @@ hr {
 }
 
 .education-text {
-  margin-left: 23vw;
+  margin-left: 22vw;
   font-size: 1.7vh;
-  width: 60vw;
+  width: 55vw;
+}
+
+.margin {
+  margin-top: 2.5vh;
 }

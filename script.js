@@ -33,7 +33,9 @@ for (const li of lis) {
 const width = document.documentElement.clientWidth;
 const height = document.documentElement.clientHeight;
 
-if (width > height && !window.navigator.userAgent.includes('Windows')) {
-  const strip = document.querySelector('.strip');
-  strip.style.height = '2.5vw';
+if (width > height && !window.navigator.userAgent.includes('Windows')) {  
+  const stripTexts = document.querySelectorAll('.strip-text');
+  for (const stripText of stripTexts) {
+    stripText.style.bottom = '5px';
+  }
 }
