@@ -19,3 +19,21 @@ contacts.addEventListener('pointerup', (e) => {
   }
 });
 
+const lis = document.querySelectorAll('li');
+
+for (const li of lis) {
+  const span = document.createElement('span');
+  span.addEventListener('pointerover', (e) => e.target.style.color = '#FF7104');
+  span.addEventListener('pointerout', (e) => e.target.style.color = '');
+
+  li.prepend(span);
+  span.append(span.nextSibling);
+}
+
+const width = document.documentElement.clientWidth;
+const height = document.documentElement.clientHeight;
+
+if (width > height && !window.navigator.userAgent.includes('Windows')) {
+  const strip = document.querySelector('.strip');
+  strip.style.height = '2.5vw';
+}
