@@ -80,6 +80,10 @@ hr {
   width: 55vw;
 }
 
+.education-text > span:hover {
+  color: #FF7104;
+}
+
 .margin {
   margin-top: 3vh;
 }
