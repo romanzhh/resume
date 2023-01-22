@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  font-size: 3.5vh;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -24,7 +24,7 @@ hr {
 }
 
 .contacts > p {
-  font-size: 1.5vh;
+  font-size: 15px;
   text-align: center;
   margin-top: 1px;
 }
@@ -41,8 +41,8 @@ hr {
 
 .strip {
   width: 60vw;
-  height: 2.5vh;
-  margin: 6vh 0 2vh 20vw;
+  height: 20px;
+  margin: 50px 0 10px 20vw;
   background-color:antiquewhite;
   padding: 4px;
 }
@@ -59,47 +59,21 @@ hr {
 
 .strip-text {
   position: relative;
-  font-size: 2.1vh;
-  margin-left: 2vw;
+  font-size: 20px;
+  margin-left: 20px;
   color: rgb(214, 135, 15);
 }
 
 .text > li {
   margin-left: 21.5vw;
-  font-size: 1.7vh;
-  line-height: 3vh;
-}
-
-.education > p {
-  margin-top: 1vh;
-}
-
-.education-text {
-  margin-left: 23vw;
-  font-size: 1.7vh;
-  width: 55vw;
-}
-
-.education-text > span:hover {
-  color: #FF7104;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 .margin {
-  margin-top: 3vh;
+  margin-top: 30px;
 }
 
 .bottom {
-  margin-top: 5vh;
-}
-
-@media (max-width: 450px) {
-  .text > li {
-    margin-left: 18vw;
-    font-size: 1.7vh;
-    line-height: 3vh;
-  }
-
-  .education-text {
-    margin-left: 24.5vw;
-  }
+  margin-top: 40px;
 }
